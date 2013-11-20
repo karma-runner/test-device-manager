@@ -1,0 +1,5 @@
+{
+  "server_name": "My Test Device Manager",
+  "listen_port": 8080,
+  "default_redirect_url": "http://my.test.runner.server"
+}
