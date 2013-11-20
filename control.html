@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>TDM Control</title>
+    <style>
+      #client_list
+      {
+        list-style-type: none;
+      }
+      .ua
+      {
+        font-size: x-small;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Test Device Manager - Control</h1>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/control.js"></script>
+    <div id="client_name_div"></div>
+    <div id="server_status_div"></div>
+    <textarea readonly cols="80" rows="8" id="message_area"></textarea>
+    <div id="client_list_div">
+      <h2>List of Connected Clients</h2>
+      <button type="button" id="select_all" onclick="select_all_clients()">All</button>
+      <button type="button" id="deselect_all" onclick="deselect_all_clients()">None</button>
+      <ul id="client_list" class="client_list">
+      </ul>
+    </div>
+    <div>
+      <button type="button" onclick="go()">Go!</button>
+      <input type="text" value="" size="60" id="redirect_url"/>
+    </div>
+  </body>
+</html>
