@@ -1,0 +1,27 @@
+{
+  "name": "test-device-manager",
+  "version": "0.0.1",
+  "description": "Keep-alive test browsers and redirect them to a test server on command.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gdewan/test-device-manager.git"
+  },
+  "keywords": [
+    "test-device-manager",
+    "karma"
+  ],
+  "author": {
+    "name": "Gautam Dewan",
+    "email": "gdewan@gmail.com"
+  },
+  "dependencies": {
+    "socket.io": "~0.9.13"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "license": "MIT",
+  "contributors": [],
+  "readme": "",
+  "_id": "test-device-manager@0.0.1",
+  "_from": "test-device-manager"
+}
