@@ -34,6 +34,6 @@ function message_handler(data) {
 }
 
 function redirect_handler(data) {
-  location.replace(data.url + '?return_url=' +
+  location.replace(data.url + (data.url.indexOf('?') ? '&' : '?') + 'return_url=' +
       encodeURIComponent(location.href));
 }
